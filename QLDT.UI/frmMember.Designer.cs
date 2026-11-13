@@ -55,6 +55,7 @@
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.rdo_male = new System.Windows.Forms.RadioButton();
             this.rdo_female = new System.Windows.Forms.RadioButton();
+            this.txt_phone = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btn_insert = new System.Windows.Forms.Button();
             this.btn_edit = new System.Windows.Forms.Button();
@@ -64,7 +65,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dgv_tblqldt_member = new System.Windows.Forms.DataGridView();
-            this.txt_phone = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
@@ -237,7 +237,7 @@
             // 
             this.cmb_contract_nbr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cmb_contract_nbr.FormattingEnabled = true;
-            this.cmb_contract_nbr.Location = new System.Drawing.Point(186, 49);
+            this.cmb_contract_nbr.Location = new System.Drawing.Point(186, 52);
             this.cmb_contract_nbr.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_contract_nbr.Name = "cmb_contract_nbr";
             this.cmb_contract_nbr.Size = new System.Drawing.Size(445, 27);
@@ -331,7 +331,7 @@
             "DANG_O",
             "CHUYEN_DI",
             "CHO_NHAN_PHONG"});
-            this.cmb_status.Location = new System.Drawing.Point(809, 154);
+            this.cmb_status.Location = new System.Drawing.Point(809, 157);
             this.cmb_status.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_status.Name = "cmb_status";
             this.cmb_status.Size = new System.Drawing.Size(447, 27);
@@ -382,6 +382,14 @@
             this.rdo_female.TabStop = true;
             this.rdo_female.Text = "Nữ";
             this.rdo_female.UseVisualStyleBackColor = true;
+            // 
+            // txt_phone
+            // 
+            this.txt_phone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_phone.Location = new System.Drawing.Point(810, 84);
+            this.txt_phone.Name = "txt_phone";
+            this.txt_phone.Size = new System.Drawing.Size(445, 26);
+            this.txt_phone.TabIndex = 20;
             // 
             // flowLayoutPanel2
             // 
@@ -452,11 +460,11 @@
             // 
             // btn_cancel
             // 
-            this.btn_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(174)))), ((int)(((byte)(192)))));
+            this.btn_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btn_cancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancel.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_cancel.ForeColor = System.Drawing.Color.Black;
+            this.btn_cancel.Font = new System.Drawing.Font("Times New Roman", 12.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_cancel.ForeColor = System.Drawing.Color.White;
             this.btn_cancel.Location = new System.Drawing.Point(370, 5);
             this.btn_cancel.Margin = new System.Windows.Forms.Padding(5);
             this.btn_cancel.Name = "btn_cancel";
@@ -532,14 +540,6 @@
             this.dgv_tblqldt_member.Size = new System.Drawing.Size(1268, 332);
             this.dgv_tblqldt_member.TabIndex = 0;
             this.dgv_tblqldt_member.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_tblqldt_member_CellClick_1);
-            // 
-            // txt_phone
-            // 
-            this.txt_phone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_phone.Location = new System.Drawing.Point(810, 84);
-            this.txt_phone.Name = "txt_phone";
-            this.txt_phone.Size = new System.Drawing.Size(445, 26);
-            this.txt_phone.TabIndex = 20;
             // 
             // frmMember
             // 
