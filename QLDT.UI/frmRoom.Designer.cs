@@ -48,11 +48,11 @@
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_delete = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_cancel = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dgv_tblqldt_room = new System.Windows.Forms.DataGridView();
-            this.btn_cancel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nud_area)).BeginInit();
@@ -255,9 +255,8 @@
             // 
             // btn_insert
             // 
-            this.btn_insert.BackColor = System.Drawing.Color.White;
+            this.btn_insert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(187)))), ((int)(((byte)(120)))));
             this.btn_insert.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_insert.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight;
             this.btn_insert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_insert.Font = new System.Drawing.Font("Times New Roman", 13F);
             this.btn_insert.ForeColor = System.Drawing.Color.Black;
@@ -273,9 +272,8 @@
             // 
             // btn_edit
             // 
-            this.btn_edit.BackColor = System.Drawing.Color.White;
+            this.btn_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(153)))), ((int)(((byte)(225)))));
             this.btn_edit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_edit.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight;
             this.btn_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_edit.Font = new System.Drawing.Font("Times New Roman", 13F);
             this.btn_edit.ForeColor = System.Drawing.Color.Black;
@@ -290,9 +288,8 @@
             // 
             // btn_delete
             // 
-            this.btn_delete.BackColor = System.Drawing.Color.White;
+            this.btn_delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(101)))), ((int)(((byte)(101)))));
             this.btn_delete.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_delete.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight;
             this.btn_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_delete.Font = new System.Drawing.Font("Times New Roman", 13F);
             this.btn_delete.ForeColor = System.Drawing.Color.Black;
@@ -319,6 +316,19 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1268, 50);
             this.flowLayoutPanel1.TabIndex = 1;
+            // 
+            // btn_cancel
+            // 
+            this.btn_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(174)))), ((int)(((byte)(192)))));
+            this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cancel.Font = new System.Drawing.Font("Times New Roman", 13F);
+            this.btn_cancel.Location = new System.Drawing.Point(398, 3);
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Size = new System.Drawing.Size(120, 38);
+            this.btn_cancel.TabIndex = 3;
+            this.btn_cancel.Text = "Hủy";
+            this.btn_cancel.UseVisualStyleBackColor = false;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // panel2
             // 
@@ -386,19 +396,6 @@
             this.dgv_tblqldt_room.Size = new System.Drawing.Size(1268, 332);
             this.dgv_tblqldt_room.TabIndex = 0;
             this.dgv_tblqldt_room.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_dsphong_CellClick);
-            // 
-            // btn_cancel
-            // 
-            this.btn_cancel.BackColor = System.Drawing.Color.White;
-            this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancel.Font = new System.Drawing.Font("Times New Roman", 13F);
-            this.btn_cancel.Location = new System.Drawing.Point(398, 3);
-            this.btn_cancel.Name = "btn_cancel";
-            this.btn_cancel.Size = new System.Drawing.Size(120, 38);
-            this.btn_cancel.TabIndex = 3;
-            this.btn_cancel.Text = "Hủy";
-            this.btn_cancel.UseVisualStyleBackColor = false;
-            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // frmRoom
             // 
