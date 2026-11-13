@@ -59,8 +59,8 @@
             this.btn_insert = new System.Windows.Forms.Button();
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_delete = new System.Windows.Forms.Button();
-            this.btn_dsthanhvien = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
+            this.btn_dsthanhvien = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -443,22 +443,6 @@
             this.btn_delete.UseVisualStyleBackColor = false;
             this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
-            // btn_dsthanhvien
-            // 
-            this.btn_dsthanhvien.BackColor = System.Drawing.Color.Navy;
-            this.btn_dsthanhvien.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_dsthanhvien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_dsthanhvien.ForeColor = System.Drawing.Color.White;
-            this.btn_dsthanhvien.Location = new System.Drawing.Point(530, 5);
-            this.btn_dsthanhvien.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_dsthanhvien.Name = "btn_dsthanhvien";
-            this.btn_dsthanhvien.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
-            this.btn_dsthanhvien.Size = new System.Drawing.Size(300, 38);
-            this.btn_dsthanhvien.TabIndex = 4;
-            this.btn_dsthanhvien.Text = "Nhập Danh Sách Thành Viên";
-            this.btn_dsthanhvien.UseVisualStyleBackColor = false;
-            this.btn_dsthanhvien.Click += new System.EventHandler(this.btn_dsthanhvien_Click);
-            // 
             // btn_cancel
             // 
             this.btn_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(174)))), ((int)(((byte)(192)))));
@@ -475,6 +459,22 @@
             this.btn_cancel.Text = "Hủy";
             this.btn_cancel.UseVisualStyleBackColor = false;
             this.btn_cancel.Click += new System.EventHandler(this.btn_delete_Click);
+            // 
+            // btn_dsthanhvien
+            // 
+            this.btn_dsthanhvien.BackColor = System.Drawing.Color.Navy;
+            this.btn_dsthanhvien.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_dsthanhvien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_dsthanhvien.ForeColor = System.Drawing.Color.White;
+            this.btn_dsthanhvien.Location = new System.Drawing.Point(530, 5);
+            this.btn_dsthanhvien.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_dsthanhvien.Name = "btn_dsthanhvien";
+            this.btn_dsthanhvien.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
+            this.btn_dsthanhvien.Size = new System.Drawing.Size(300, 38);
+            this.btn_dsthanhvien.TabIndex = 4;
+            this.btn_dsthanhvien.Text = "Nhập Danh Sách Thành Viên";
+            this.btn_dsthanhvien.UseVisualStyleBackColor = false;
+            this.btn_dsthanhvien.Click += new System.EventHandler(this.btn_dsthanhvien_Click);
             // 
             // panel2
             // 

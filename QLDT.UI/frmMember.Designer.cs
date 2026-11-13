@@ -39,13 +39,11 @@
             this.chk_is_primary_tenant = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.txt_full_name = new System.Windows.Forms.TextBox();
             this.txt_member_nbr = new System.Windows.Forms.TextBox();
             this.cmb_contract_nbr = new System.Windows.Forms.ComboBox();
             this.txt_national_id = new System.Windows.Forms.TextBox();
-            this.txt_phone = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -61,11 +59,12 @@
             this.btn_insert = new System.Windows.Forms.Button();
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_delete = new System.Windows.Forms.Button();
+            this.btn_cancel = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dgv_tblqldt_member = new System.Windows.Forms.DataGridView();
-            this.btn_cancel = new System.Windows.Forms.Button();
+            this.txt_phone = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
@@ -82,7 +81,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1225, 50);
+            this.panel1.Size = new System.Drawing.Size(1268, 50);
             this.panel1.TabIndex = 0;
             // 
             // label9
@@ -94,7 +93,7 @@
             this.label9.Margin = new System.Windows.Forms.Padding(0);
             this.label9.Name = "label9";
             this.label9.Padding = new System.Windows.Forms.Padding(10);
-            this.label9.Size = new System.Drawing.Size(1225, 50);
+            this.label9.Size = new System.Drawing.Size(1268, 50);
             this.label9.TabIndex = 0;
             this.label9.Text = "THÔNG TIN THÀNH VIÊN";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -103,22 +102,20 @@
             // 
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(249)))));
             this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.5F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 297F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.chk_is_primary_tenant, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label4, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.txt_full_name, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.txt_member_nbr, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.cmb_contract_nbr, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.txt_national_id, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.txt_phone, 1, 7);
             this.tableLayoutPanel1.Controls.Add(this.label6, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.label7, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.label11, 2, 2);
@@ -128,6 +125,7 @@
             this.tableLayoutPanel1.Controls.Add(this.cmb_status, 3, 4);
             this.tableLayoutPanel1.Controls.Add(this.txt_address, 3, 3);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel3, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txt_phone, 3, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tableLayoutPanel1.ForeColor = System.Drawing.Color.Black;
@@ -135,18 +133,14 @@
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(10);
-            this.tableLayoutPanel1.RowCount = 10;
+            this.tableLayoutPanel1.RowCount = 6;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1225, 375);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1268, 200);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // label1
@@ -175,12 +169,13 @@
             // 
             // chk_is_primary_tenant
             // 
+            this.chk_is_primary_tenant.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.chk_is_primary_tenant.AutoSize = true;
-            this.chk_is_primary_tenant.Location = new System.Drawing.Point(239, 117);
+            this.chk_is_primary_tenant.Location = new System.Drawing.Point(186, 122);
             this.chk_is_primary_tenant.Margin = new System.Windows.Forms.Padding(2);
             this.chk_is_primary_tenant.Name = "chk_is_primary_tenant";
             this.chk_is_primary_tenant.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
-            this.chk_is_primary_tenant.Size = new System.Drawing.Size(15, 20);
+            this.chk_is_primary_tenant.Size = new System.Drawing.Size(445, 20);
             this.chk_is_primary_tenant.TabIndex = 7;
             this.chk_is_primary_tenant.UseVisualStyleBackColor = true;
             // 
@@ -208,15 +203,6 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Căn Cước Công Dân:";
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(239, 222);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(336, 31);
-            this.flowLayoutPanel1.TabIndex = 14;
-            // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -231,55 +217,46 @@
             // 
             // txt_full_name
             // 
-            this.txt_full_name.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txt_full_name.Location = new System.Drawing.Point(239, 84);
+            this.txt_full_name.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_full_name.Location = new System.Drawing.Point(186, 84);
             this.txt_full_name.Margin = new System.Windows.Forms.Padding(2);
             this.txt_full_name.Name = "txt_full_name";
-            this.txt_full_name.Size = new System.Drawing.Size(336, 26);
+            this.txt_full_name.Size = new System.Drawing.Size(445, 26);
             this.txt_full_name.TabIndex = 5;
             // 
             // txt_member_nbr
             // 
-            this.txt_member_nbr.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txt_member_nbr.Location = new System.Drawing.Point(239, 14);
+            this.txt_member_nbr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_member_nbr.Location = new System.Drawing.Point(186, 14);
             this.txt_member_nbr.Margin = new System.Windows.Forms.Padding(2);
             this.txt_member_nbr.Name = "txt_member_nbr";
-            this.txt_member_nbr.Size = new System.Drawing.Size(336, 26);
+            this.txt_member_nbr.Size = new System.Drawing.Size(445, 26);
             this.txt_member_nbr.TabIndex = 1;
             // 
             // cmb_contract_nbr
             // 
-            this.cmb_contract_nbr.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.cmb_contract_nbr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cmb_contract_nbr.FormattingEnabled = true;
-            this.cmb_contract_nbr.Location = new System.Drawing.Point(239, 52);
+            this.cmb_contract_nbr.Location = new System.Drawing.Point(186, 49);
             this.cmb_contract_nbr.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_contract_nbr.Name = "cmb_contract_nbr";
-            this.cmb_contract_nbr.Size = new System.Drawing.Size(336, 27);
+            this.cmb_contract_nbr.Size = new System.Drawing.Size(445, 27);
             this.cmb_contract_nbr.TabIndex = 3;
             // 
             // txt_national_id
             // 
-            this.txt_national_id.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txt_national_id.Location = new System.Drawing.Point(239, 154);
+            this.txt_national_id.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_national_id.Location = new System.Drawing.Point(186, 154);
             this.txt_national_id.Margin = new System.Windows.Forms.Padding(2);
             this.txt_national_id.Name = "txt_national_id";
-            this.txt_national_id.Size = new System.Drawing.Size(336, 26);
+            this.txt_national_id.Size = new System.Drawing.Size(445, 26);
             this.txt_national_id.TabIndex = 9;
-            // 
-            // txt_phone
-            // 
-            this.txt_phone.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txt_phone.Location = new System.Drawing.Point(239, 259);
-            this.txt_phone.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_phone.Name = "txt_phone";
-            this.txt_phone.Size = new System.Drawing.Size(336, 26);
-            this.txt_phone.TabIndex = 14;
             // 
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(579, 18);
+            this.label6.Location = new System.Drawing.Point(635, 18);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
@@ -291,7 +268,7 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(579, 53);
+            this.label7.Location = new System.Drawing.Point(635, 53);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
@@ -303,7 +280,7 @@
             // 
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(579, 88);
+            this.label11.Location = new System.Drawing.Point(635, 88);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
@@ -316,7 +293,7 @@
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(579, 123);
+            this.label8.Location = new System.Drawing.Point(635, 123);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
@@ -328,7 +305,7 @@
             // 
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(579, 158);
+            this.label12.Location = new System.Drawing.Point(635, 158);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
@@ -338,35 +315,35 @@
             // 
             // dtp_birth_date
             // 
-            this.dtp_birth_date.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.dtp_birth_date.Location = new System.Drawing.Point(876, 14);
+            this.dtp_birth_date.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.dtp_birth_date.Location = new System.Drawing.Point(809, 14);
             this.dtp_birth_date.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_birth_date.Name = "dtp_birth_date";
-            this.dtp_birth_date.Size = new System.Drawing.Size(337, 26);
+            this.dtp_birth_date.Size = new System.Drawing.Size(447, 26);
             this.dtp_birth_date.TabIndex = 11;
             // 
             // cmb_status
             // 
-            this.cmb_status.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.cmb_status.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cmb_status.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(249)))));
             this.cmb_status.FormattingEnabled = true;
             this.cmb_status.Items.AddRange(new object[] {
             "DANG_O",
             "CHUYEN_DI",
             "CHO_NHAN_PHONG"});
-            this.cmb_status.Location = new System.Drawing.Point(876, 157);
+            this.cmb_status.Location = new System.Drawing.Point(809, 154);
             this.cmb_status.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_status.Name = "cmb_status";
-            this.cmb_status.Size = new System.Drawing.Size(337, 27);
+            this.cmb_status.Size = new System.Drawing.Size(447, 27);
             this.cmb_status.TabIndex = 18;
             // 
             // txt_address
             // 
-            this.txt_address.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txt_address.Location = new System.Drawing.Point(876, 119);
+            this.txt_address.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_address.Location = new System.Drawing.Point(809, 119);
             this.txt_address.Margin = new System.Windows.Forms.Padding(2);
             this.txt_address.Name = "txt_address";
-            this.txt_address.Size = new System.Drawing.Size(337, 26);
+            this.txt_address.Size = new System.Drawing.Size(447, 26);
             this.txt_address.TabIndex = 16;
             // 
             // flowLayoutPanel3
@@ -374,13 +351,14 @@
             this.flowLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel3.Controls.Add(this.rdo_male);
             this.flowLayoutPanel3.Controls.Add(this.rdo_female);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(877, 48);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(810, 48);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(335, 29);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(445, 29);
             this.flowLayoutPanel3.TabIndex = 19;
             // 
             // rdo_male
             // 
+            this.rdo_male.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.rdo_male.AutoSize = true;
             this.rdo_male.Location = new System.Drawing.Point(2, 2);
             this.rdo_male.Margin = new System.Windows.Forms.Padding(2);
@@ -393,6 +371,7 @@
             // 
             // rdo_female
             // 
+            this.rdo_female.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.rdo_female.AutoSize = true;
             this.rdo_female.Location = new System.Drawing.Point(63, 2);
             this.rdo_female.Margin = new System.Windows.Forms.Padding(2);
@@ -414,20 +393,19 @@
             this.flowLayoutPanel2.Controls.Add(this.btn_delete);
             this.flowLayoutPanel2.Controls.Add(this.btn_cancel);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 425);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 250);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1225, 50);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1268, 50);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
             // btn_insert
             // 
-            this.btn_insert.BackColor = System.Drawing.Color.Transparent;
+            this.btn_insert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(187)))), ((int)(((byte)(120)))));
             this.btn_insert.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_insert.FlatAppearance.BorderSize = 0;
             this.btn_insert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_insert.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_insert.ForeColor = System.Drawing.Color.White;
+            this.btn_insert.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_insert.ForeColor = System.Drawing.Color.Black;
             this.btn_insert.Location = new System.Drawing.Point(10, 5);
             this.btn_insert.Margin = new System.Windows.Forms.Padding(10, 5, 5, 5);
             this.btn_insert.Name = "btn_insert";
@@ -440,12 +418,11 @@
             // 
             // btn_edit
             // 
-            this.btn_edit.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btn_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(153)))), ((int)(((byte)(225)))));
             this.btn_edit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_edit.FlatAppearance.BorderSize = 0;
             this.btn_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_edit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_edit.ForeColor = System.Drawing.Color.White;
+            this.btn_edit.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_edit.ForeColor = System.Drawing.Color.Black;
             this.btn_edit.Location = new System.Drawing.Point(130, 5);
             this.btn_edit.Margin = new System.Windows.Forms.Padding(5);
             this.btn_edit.Name = "btn_edit";
@@ -458,12 +435,11 @@
             // 
             // btn_delete
             // 
-            this.btn_delete.BackColor = System.Drawing.Color.Firebrick;
+            this.btn_delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(101)))), ((int)(((byte)(101)))));
             this.btn_delete.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_delete.FlatAppearance.BorderSize = 0;
             this.btn_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_delete.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_delete.ForeColor = System.Drawing.Color.White;
+            this.btn_delete.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_delete.ForeColor = System.Drawing.Color.Black;
             this.btn_delete.Location = new System.Drawing.Point(250, 5);
             this.btn_delete.Margin = new System.Windows.Forms.Padding(5);
             this.btn_delete.Name = "btn_delete";
@@ -474,14 +450,31 @@
             this.btn_delete.UseVisualStyleBackColor = false;
             this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
+            // btn_cancel
+            // 
+            this.btn_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(174)))), ((int)(((byte)(192)))));
+            this.btn_cancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cancel.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_cancel.ForeColor = System.Drawing.Color.Black;
+            this.btn_cancel.Location = new System.Drawing.Point(370, 5);
+            this.btn_cancel.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
+            this.btn_cancel.Size = new System.Drawing.Size(110, 40);
+            this.btn_cancel.TabIndex = 2;
+            this.btn_cancel.Text = "Hủy ";
+            this.btn_cancel.UseVisualStyleBackColor = false;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_delete_Click);
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.label10);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 475);
+            this.panel2.Location = new System.Drawing.Point(0, 300);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1225, 50);
+            this.panel2.Size = new System.Drawing.Size(1268, 50);
             this.panel2.TabIndex = 3;
             // 
             // label10
@@ -493,20 +486,19 @@
             this.label10.Margin = new System.Windows.Forms.Padding(0);
             this.label10.Name = "label10";
             this.label10.Padding = new System.Windows.Forms.Padding(10);
-            this.label10.Size = new System.Drawing.Size(1225, 50);
+            this.label10.Size = new System.Drawing.Size(1268, 50);
             this.label10.TabIndex = 0;
             this.label10.Text = "DANH SÁCH THÀNH VIÊN";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-         
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.dgv_tblqldt_member);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 525);
+            this.panel3.Location = new System.Drawing.Point(0, 350);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1225, 237);
+            this.panel3.Size = new System.Drawing.Size(1268, 332);
             this.panel3.TabIndex = 4;
             // 
             // dgv_tblqldt_member
@@ -537,34 +529,23 @@
             this.dgv_tblqldt_member.Margin = new System.Windows.Forms.Padding(2);
             this.dgv_tblqldt_member.Name = "dgv_tblqldt_member";
             this.dgv_tblqldt_member.RowTemplate.Height = 28;
-            this.dgv_tblqldt_member.Size = new System.Drawing.Size(1225, 237);
+            this.dgv_tblqldt_member.Size = new System.Drawing.Size(1268, 332);
             this.dgv_tblqldt_member.TabIndex = 0;
             this.dgv_tblqldt_member.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_tblqldt_member_CellClick_1);
-           
             // 
-            // btn_cancel
+            // txt_phone
             // 
-            this.btn_cancel.BackColor = System.Drawing.Color.Firebrick;
-            this.btn_cancel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cancel.FlatAppearance.BorderSize = 0;
-            this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cancel.ForeColor = System.Drawing.Color.White;
-            this.btn_cancel.Location = new System.Drawing.Point(370, 5);
-            this.btn_cancel.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_cancel.Name = "btn_cancel";
-            this.btn_cancel.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
-            this.btn_cancel.Size = new System.Drawing.Size(110, 40);
-            this.btn_cancel.TabIndex = 2;
-            this.btn_cancel.Text = "Hủy ";
-            this.btn_cancel.UseVisualStyleBackColor = false;
-            this.btn_cancel.Click += new System.EventHandler(this.btn_delete_Click);
+            this.txt_phone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_phone.Location = new System.Drawing.Point(810, 84);
+            this.txt_phone.Name = "txt_phone";
+            this.txt_phone.Size = new System.Drawing.Size(445, 26);
+            this.txt_phone.TabIndex = 20;
             // 
             // frmMember
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1225, 762);
+            this.ClientSize = new System.Drawing.Size(1268, 682);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.flowLayoutPanel2);
@@ -605,7 +586,6 @@
         private System.Windows.Forms.CheckBox chk_is_primary_tenant;
         private System.Windows.Forms.TextBox txt_national_id;
         private System.Windows.Forms.DateTimePicker dtp_birth_date;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.RadioButton rdo_male;
         private System.Windows.Forms.RadioButton rdo_female;
         private System.Windows.Forms.TextBox txt_address;
@@ -621,10 +601,10 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dgv_tblqldt_member;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txt_phone;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox cmb_status;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.Button btn_cancel;
+        private System.Windows.Forms.TextBox txt_phone;
     }
 }
