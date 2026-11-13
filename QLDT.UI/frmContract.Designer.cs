@@ -60,11 +60,11 @@
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_delete = new System.Windows.Forms.Button();
             this.btn_dsthanhvien = new System.Windows.Forms.Button();
+            this.btn_cancel = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dgv_tblqldt_contract = new System.Windows.Forms.DataGridView();
-            this.btn_cancel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nud_room_price)).BeginInit();
@@ -295,7 +295,7 @@
             // 
             this.cmb_room_nbr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cmb_room_nbr.FormattingEnabled = true;
-            this.cmb_room_nbr.Location = new System.Drawing.Point(184, 52);
+            this.cmb_room_nbr.Location = new System.Drawing.Point(184, 49);
             this.cmb_room_nbr.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_room_nbr.Name = "cmb_room_nbr";
             this.cmb_room_nbr.Size = new System.Drawing.Size(440, 27);
@@ -383,8 +383,8 @@
             this.flowLayoutPanel1.Controls.Add(this.btn_insert);
             this.flowLayoutPanel1.Controls.Add(this.btn_edit);
             this.flowLayoutPanel1.Controls.Add(this.btn_delete);
-            this.flowLayoutPanel1.Controls.Add(this.btn_dsthanhvien);
             this.flowLayoutPanel1.Controls.Add(this.btn_cancel);
+            this.flowLayoutPanel1.Controls.Add(this.btn_dsthanhvien);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 248);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
@@ -394,12 +394,11 @@
             // 
             // btn_insert
             // 
-            this.btn_insert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(163)))), ((int)(((byte)(74)))));
+            this.btn_insert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(187)))), ((int)(((byte)(120)))));
             this.btn_insert.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_insert.FlatAppearance.BorderSize = 0;
             this.btn_insert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_insert.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_insert.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_insert.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_insert.ForeColor = System.Drawing.Color.Black;
             this.btn_insert.Location = new System.Drawing.Point(10, 5);
             this.btn_insert.Margin = new System.Windows.Forms.Padding(10, 5, 5, 5);
             this.btn_insert.Name = "btn_insert";
@@ -412,12 +411,11 @@
             // 
             // btn_edit
             // 
-            this.btn_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(119)))), ((int)(((byte)(6)))));
+            this.btn_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(153)))), ((int)(((byte)(225)))));
             this.btn_edit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_edit.FlatAppearance.BorderSize = 0;
             this.btn_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_edit.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.btn_edit.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_edit.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_edit.ForeColor = System.Drawing.Color.Black;
             this.btn_edit.Location = new System.Drawing.Point(140, 5);
             this.btn_edit.Margin = new System.Windows.Forms.Padding(5);
             this.btn_edit.Name = "btn_edit";
@@ -430,12 +428,11 @@
             // 
             // btn_delete
             // 
-            this.btn_delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.btn_delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(101)))), ((int)(((byte)(101)))));
             this.btn_delete.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_delete.FlatAppearance.BorderSize = 0;
             this.btn_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_delete.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.btn_delete.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_delete.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_delete.ForeColor = System.Drawing.Color.Black;
             this.btn_delete.Location = new System.Drawing.Point(270, 5);
             this.btn_delete.Margin = new System.Windows.Forms.Padding(5);
             this.btn_delete.Name = "btn_delete";
@@ -450,9 +447,9 @@
             // 
             this.btn_dsthanhvien.BackColor = System.Drawing.Color.Navy;
             this.btn_dsthanhvien.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_dsthanhvien.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            this.btn_dsthanhvien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_dsthanhvien.ForeColor = System.Drawing.Color.White;
-            this.btn_dsthanhvien.Location = new System.Drawing.Point(400, 5);
+            this.btn_dsthanhvien.Location = new System.Drawing.Point(530, 5);
             this.btn_dsthanhvien.Margin = new System.Windows.Forms.Padding(5);
             this.btn_dsthanhvien.Name = "btn_dsthanhvien";
             this.btn_dsthanhvien.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
@@ -461,6 +458,23 @@
             this.btn_dsthanhvien.Text = "Nhập Danh Sách Thành Viên";
             this.btn_dsthanhvien.UseVisualStyleBackColor = false;
             this.btn_dsthanhvien.Click += new System.EventHandler(this.btn_dsthanhvien_Click);
+            // 
+            // btn_cancel
+            // 
+            this.btn_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(174)))), ((int)(((byte)(192)))));
+            this.btn_cancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cancel.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_cancel.ForeColor = System.Drawing.Color.Black;
+            this.btn_cancel.Location = new System.Drawing.Point(400, 5);
+            this.btn_cancel.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
+            this.btn_cancel.Size = new System.Drawing.Size(120, 38);
+            this.btn_cancel.TabIndex = 2;
+            this.btn_cancel.Text = "Hủy";
+            this.btn_cancel.UseVisualStyleBackColor = false;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // panel2
             // 
@@ -535,24 +549,6 @@
             this.dgv_tblqldt_contract.Size = new System.Drawing.Size(1254, 384);
             this.dgv_tblqldt_contract.TabIndex = 0;
             this.dgv_tblqldt_contract.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_dshopdong_CellClick);
-            // 
-            // btn_cancel
-            // 
-            this.btn_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.btn_cancel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cancel.FlatAppearance.BorderSize = 0;
-            this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancel.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.btn_cancel.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_cancel.Location = new System.Drawing.Point(710, 5);
-            this.btn_cancel.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_cancel.Name = "btn_cancel";
-            this.btn_cancel.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
-            this.btn_cancel.Size = new System.Drawing.Size(120, 38);
-            this.btn_cancel.TabIndex = 2;
-            this.btn_cancel.Text = "Hủy";
-            this.btn_cancel.UseVisualStyleBackColor = false;
-            this.btn_cancel.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // frmContract
             // 
