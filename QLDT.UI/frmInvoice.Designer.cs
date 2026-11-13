@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -217,7 +217,7 @@
             "10",
             "11",
             "12"});
-            this.cmb_billing_month.Location = new System.Drawing.Point(192, 14);
+            this.cmb_billing_month.Location = new System.Drawing.Point(192, 17);
             this.cmb_billing_month.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_billing_month.Name = "cmb_billing_month";
             this.cmb_billing_month.Size = new System.Drawing.Size(400, 27);
@@ -381,7 +381,7 @@
             this.cmb_billing_year.FormattingEnabled = true;
             this.cmb_billing_year.Items.AddRange(new object[] {
             "2026"});
-            this.cmb_billing_year.Location = new System.Drawing.Point(192, 49);
+            this.cmb_billing_year.Location = new System.Drawing.Point(192, 52);
             this.cmb_billing_year.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_billing_year.Name = "cmb_billing_year";
             this.cmb_billing_year.Size = new System.Drawing.Size(400, 27);
@@ -579,7 +579,7 @@
             this.cmb_payment_status.Items.AddRange(new object[] {
             "DA_THU",
             "CHUA_THU"});
-            this.cmb_payment_status.Location = new System.Drawing.Point(771, 224);
+            this.cmb_payment_status.Location = new System.Drawing.Point(771, 227);
             this.cmb_payment_status.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_payment_status.Name = "cmb_payment_status";
             this.cmb_payment_status.Size = new System.Drawing.Size(409, 27);
@@ -589,7 +589,7 @@
             // 
             this.cmb_contract_nbr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cmb_contract_nbr.FormattingEnabled = true;
-            this.cmb_contract_nbr.Location = new System.Drawing.Point(192, 84);
+            this.cmb_contract_nbr.Location = new System.Drawing.Point(192, 87);
             this.cmb_contract_nbr.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_contract_nbr.Name = "cmb_contract_nbr";
             this.cmb_contract_nbr.Size = new System.Drawing.Size(400, 27);
@@ -710,39 +710,39 @@
             // 
             // dgv_tblqldt_invoice
             // 
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(247)))));
-            this.dgv_tblqldt_invoice.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(247)))));
+            this.dgv_tblqldt_invoice.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_tblqldt_invoice.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_tblqldt_invoice.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_tblqldt_invoice.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_tblqldt_invoice.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_tblqldt_invoice.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_tblqldt_invoice.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_tblqldt_invoice.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgv_tblqldt_invoice.EnableHeadersVisualStyles = false;
             this.dgv_tblqldt_invoice.Location = new System.Drawing.Point(0, 0);
             this.dgv_tblqldt_invoice.Margin = new System.Windows.Forms.Padding(2);
             this.dgv_tblqldt_invoice.Name = "dgv_tblqldt_invoice";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_tblqldt_invoice.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_tblqldt_invoice.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_tblqldt_invoice.RowTemplate.Height = 28;
             this.dgv_tblqldt_invoice.Size = new System.Drawing.Size(1192, 236);
             this.dgv_tblqldt_invoice.TabIndex = 0;
