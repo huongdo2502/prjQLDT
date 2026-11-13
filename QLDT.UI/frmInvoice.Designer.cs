@@ -217,7 +217,7 @@
             "10",
             "11",
             "12"});
-            this.cmb_billing_month.Location = new System.Drawing.Point(192, 17);
+            this.cmb_billing_month.Location = new System.Drawing.Point(192, 14);
             this.cmb_billing_month.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_billing_month.Name = "cmb_billing_month";
             this.cmb_billing_month.Size = new System.Drawing.Size(400, 27);
@@ -352,12 +352,13 @@
             // 
             // chk_is_checkout
             // 
+            this.chk_is_checkout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.chk_is_checkout.AutoSize = true;
-            this.chk_is_checkout.Location = new System.Drawing.Point(771, 292);
+            this.chk_is_checkout.Location = new System.Drawing.Point(771, 299);
             this.chk_is_checkout.Margin = new System.Windows.Forms.Padding(2);
             this.chk_is_checkout.Name = "chk_is_checkout";
             this.chk_is_checkout.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.chk_is_checkout.Size = new System.Drawing.Size(15, 17);
+            this.chk_is_checkout.Size = new System.Drawing.Size(409, 17);
             this.chk_is_checkout.TabIndex = 35;
             this.chk_is_checkout.UseVisualStyleBackColor = true;
             // 
@@ -380,7 +381,7 @@
             this.cmb_billing_year.FormattingEnabled = true;
             this.cmb_billing_year.Items.AddRange(new object[] {
             "2026"});
-            this.cmb_billing_year.Location = new System.Drawing.Point(192, 52);
+            this.cmb_billing_year.Location = new System.Drawing.Point(192, 49);
             this.cmb_billing_year.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_billing_year.Name = "cmb_billing_year";
             this.cmb_billing_year.Size = new System.Drawing.Size(400, 27);
@@ -578,7 +579,7 @@
             this.cmb_payment_status.Items.AddRange(new object[] {
             "DA_THU",
             "CHUA_THU"});
-            this.cmb_payment_status.Location = new System.Drawing.Point(771, 227);
+            this.cmb_payment_status.Location = new System.Drawing.Point(771, 224);
             this.cmb_payment_status.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_payment_status.Name = "cmb_payment_status";
             this.cmb_payment_status.Size = new System.Drawing.Size(409, 27);
@@ -588,7 +589,7 @@
             // 
             this.cmb_contract_nbr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cmb_contract_nbr.FormattingEnabled = true;
-            this.cmb_contract_nbr.Location = new System.Drawing.Point(192, 87);
+            this.cmb_contract_nbr.Location = new System.Drawing.Point(192, 84);
             this.cmb_contract_nbr.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_contract_nbr.Name = "cmb_contract_nbr";
             this.cmb_contract_nbr.Size = new System.Drawing.Size(400, 27);
@@ -621,12 +622,12 @@
             // 
             // btn_insert
             // 
-            this.btn_insert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(163)))), ((int)(((byte)(74)))));
+            this.btn_insert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(187)))), ((int)(((byte)(120)))));
             this.btn_insert.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_insert.FlatAppearance.BorderSize = 0;
             this.btn_insert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_insert.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_insert.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_insert.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_insert.ForeColor = System.Drawing.Color.Black;
             this.btn_insert.Location = new System.Drawing.Point(19, 5);
             this.btn_insert.Margin = new System.Windows.Forms.Padding(10, 5, 5, 5);
             this.btn_insert.Name = "btn_insert";
@@ -639,12 +640,12 @@
             // 
             // btn_edit
             // 
-            this.btn_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(119)))), ((int)(((byte)(6)))));
+            this.btn_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(153)))), ((int)(((byte)(225)))));
             this.btn_edit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_edit.FlatAppearance.BorderSize = 0;
             this.btn_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_edit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_edit.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_edit.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_edit.ForeColor = System.Drawing.Color.Black;
             this.btn_edit.Location = new System.Drawing.Point(169, 5);
             this.btn_edit.Margin = new System.Windows.Forms.Padding(5);
             this.btn_edit.Name = "btn_edit";
@@ -657,10 +658,12 @@
             // 
             // btn_dsphieuthu
             // 
-            this.btn_dsphieuthu.BackColor = System.Drawing.Color.Blue;
+            this.btn_dsphieuthu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(101)))), ((int)(((byte)(101)))));
             this.btn_dsphieuthu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_dsphieuthu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_dsphieuthu.ForeColor = System.Drawing.Color.White;
+            this.btn_dsphieuthu.FlatAppearance.BorderSize = 0;
+            this.btn_dsphieuthu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_dsphieuthu.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_dsphieuthu.ForeColor = System.Drawing.Color.Black;
             this.btn_dsphieuthu.Location = new System.Drawing.Point(319, 5);
             this.btn_dsphieuthu.Margin = new System.Windows.Forms.Padding(5);
             this.btn_dsphieuthu.Name = "btn_dsphieuthu";
